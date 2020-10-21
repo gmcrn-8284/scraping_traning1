@@ -5,6 +5,7 @@ import time
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
+#関数
 def stop():
     stop_time = random.randint(1, 10)
     print(f"{stop_time}秒待ちます。")
