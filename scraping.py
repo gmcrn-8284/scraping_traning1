@@ -17,6 +17,7 @@ fp = urlopen('https://yorushika.com/')
 # HTML取得
 html = fp.read()
 
+#処理を止める
 stop()
 
 fp.close()
