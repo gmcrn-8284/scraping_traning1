@@ -11,6 +11,7 @@ def stop():
     print(f"{stop_time}秒待ちます。")
     time.sleep(stop_time)
 
+#URLを取得
 fp = urlopen('https://yorushika.com/')
 
 html = fp.read()
