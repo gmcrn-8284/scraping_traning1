@@ -14,6 +14,7 @@ def stop():
 #URLを取得
 fp = urlopen('https://yorushika.com/')
 
+# HTML取得
 html = fp.read()
 
 stop()
